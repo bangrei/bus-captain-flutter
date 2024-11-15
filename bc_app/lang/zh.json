@@ -1,0 +1,609 @@
+{
+  "documentation": "文档",
+  "changelog": "变更日志",
+  "micro-framework for Flutter": "Flutter 微框架",
+  "hello": "你好 {{first_name}} {{last_name}}",
+  "no data": "没有数据...",
+  "no events": "没有活动...",
+  "loading": "加载中...",
+  "yes": "是",
+  "no" : "不",
+  "password_warning_label": {
+    "minimum characters": "必须是至少6位的数字。",
+    "enter value": "请输入新密码。",
+    "different password": "新密码必须与当前密码不同。",
+    "not match": "密码不匹配"
+  },
+  "login_screen" : {
+    "welcome": "欢迎!",
+    "username" : "用户名",
+    "enter your employee ID": "输入您的工牌号码。",
+    "password" : "密码",
+    "enter your password": "输入您的密码",
+    "remember me": "记住用户名",
+    "enable face id": "启用面部识别码",
+    "button": "登录",
+    "login error 1": "ID 或密码无效",
+    "login error 2": "请重试，或者点击“忘记密码”以重置您的密码。",
+    "forgot password": "首次登录 / 忘记密码？"
+  },
+  "otp_screen": {
+    "title": "OTP 验证",
+    "subtitle":"输入发送的验证码",
+    "resend otp": "未收到OTP验证码？",
+    "resend label": "重新发送OTP验证码",
+    "button": "提交",
+    "alert message": "需要 6 位 OTP！",
+    "otp downtime": "在 {{timer}} 秒内重新发送 OTP"
+  },
+  "first_update_password_screen": {
+    "title": "更改密码",
+    "subtitle": "由于这是您首次登录，因此需要您更改密码。",
+    "current password": "当前密码",
+    "new password": "新密码",
+    "confirm password": "确认密码",
+    "button": "更改密码"
+  },
+  "forgot_password_screen": {
+    "title": "忘记密码？",
+    "subtitle1": "别担心！只需输入您的工牌号码和手机号码。",
+    "subtitle2": "我们将发送验证码到您的手机号码以重置您的密码。",
+    "employee id": "工牌号码",
+    "mobile number": "手机号码",
+    "button": "提交",
+    "warning message": "*如果您无法重置密码，请联系您的主管寻求帮助。"
+  },
+  "reset_password_screen": {
+    "title": "重置密码",
+    "subtitle": "请输入新密码。",
+    "new password": "新密码",
+    "confirm new password":"确认新密码",
+    "button": "重置密码",
+
+    "success_message_modal": {
+      "title":"密码重置成功",
+      "subtitle": "恭喜！您的密码已重置，请返回登录页面重新登录。",
+      "button": "返回登录页面" 
+    }
+  },
+  "welcome_screen": {
+    "home": "首页",
+    "safety subtitle1" : "安全第一",
+    "safety subtitle2" : "安全工作",
+    "safety subtitle3" : "安全回家",
+    "safety message" : "安全信息",
+    "security subtitle1": "安全人人有责",
+    "security subtitle2": "守护今天，保障明天",
+    "security subtitle3": "见义勇为，及时报告",
+    "security message": "安保信息"
+
+  },
+  "homepage_screen": {
+    "dashboard": "仪表板",
+    "shortcuts": "快捷键",
+    "bus check": "自我申报和巴士检查",
+    "duty roster": "值班表",
+    "driving performance": "驾驶表现",
+    "leave request": "请假申请",
+    "uniform request": "制服申请",
+    "payslip": "工资单",
+    "learning system": "学习系统",
+    "document access": "文件存取",
+    "overtime": "加班显示",
+    "attendance": "出勤"
+  },
+  "sidebar": {
+    "profile": "个人资料",
+    "bus check": "自我申报和巴士检查",
+    "duty roster": "值班表",
+    "driving performance": "驾驶表现",
+    "leave request": "请假申请",
+    "uniform request": "制服申请",
+    "payslip": "工资单",
+    "learning system": "学习系统",
+    "document access": "文件存取",
+    "overtime": "加班显示",
+    "settings": "设置",
+    "help": "帮助",
+    "logout account" : "登出账号",
+    "attendance": "出勤"
+  },
+  "bottom_nav_bar": {
+    "home": "首页",
+    "report hazard": "报告隐患",
+    "feedback": "反馈"
+  },
+  "user_profile": {
+    "title": "用户资料",
+    "profile": "个人资料",
+    "bc id": "车长工牌号码",
+    "bc name": "车长姓名",
+    "reporting supervisor": "直属主管",
+    "depot/interchange": "总站/转换站",
+    "bus no": "巴士车牌",
+    "driving license expiry date": "驾驶执照有效期",
+    "driving license": "驾驶执照",
+    "security": "安保",
+    "change password": "更改密码",
+
+    "change_password_screen": {
+      "title": "更改密码",
+      "subtitle": "在下面输入新密码以更改您的密码",
+      "current password": "当前密码",
+      "new password": "新密码",
+      "confirm new password": "确认新密码",
+      "button": "更改密码"
+    },
+
+    "driving_license_screen": {
+      "title": "驾驶执照",
+      "title update": "驾驶执照更新",
+      "bcid": "车长工牌号码",
+      "name": "车长姓名",
+      "license type": "驾驶执照类型",
+      "select license type": "选择执照类型",
+      "expiry date": "到期日期",
+      "expiry date message": "对于新加坡公民，请输入“无到期日期”",
+      "expiry days": "{{days}} 天后到期",
+      "no expiry": "无到期日期",
+      "days to expiration": "距到期天数",
+      "no data": "没有驾驶执照数据\n请联系您的主管！",
+      "issue date": "签发日期",
+      "front license": "驾驶执照正面",
+      "back license" : "驾驶执照背面",
+      "required": "必填",
+      "photo lib": "照片库",
+      "take photo": "拍照",
+      "browse": "浏览",
+      "button": "提交",
+      "renew": "更新",
+      "pending": "待更新",
+      "expiry date field alert message": "需要到期日期",
+      "issue date field alert message": "需要签发日期",
+      "front image field alert message": "需要驾驶执照的正面图像！",
+      "back image field alert message": "需要您的驾驶执照背面图像！"
+    }
+  },
+  "payslip_page": {
+    "title": "工资单",
+    "filter label payslip": "工资单",
+    "start date": "开始日期",
+    "end date": "结束日期",
+    "to": "到",
+
+    "date_selection_modal": {
+      "title": "选择工资单周期",
+      "subtitle1": "获取最近6个月的工资单。",
+      "subtitle2": "日期范围不得超过6个月。",
+      "start date": "开始日期",
+      "end date": "结束日期",
+      "to": "到"
+    },
+    "pdf_view_page": {
+      "left action label": "完成",
+      "right action label download": "下载",
+      "right action label view file": "查看文件",
+      "right action label downloading": "正在下载...",
+      "download complete": "下载完成！",
+      "download failed": "下载失败",
+      "storage permission": "下载文件需要存储权限！",
+      "unable to load file": "出了些问题！无法加载工资单 {{filename}}！",
+      "re-download text": "无法打开文件！您想重新下载该文件吗？",
+      "cancel": "取消",
+      "download": "下载"
+    }
+  },
+  "settings_page": {
+    "title": "设置",
+    "general": "常规",
+    "change language": "更改语言",
+    "security": "安保",
+    "enable face id": "启用面部识别码",
+    "enable face id description": "您的应用程序密码可以用作备份",
+    "about": "关于此应用程序",
+    "lang": "华语"
+  },
+  "about_page" : {
+    "title": "关于此应用程序",
+    "description1": "巴士车长管理系统 (BCMS) ",
+    "description2": "此移动应用程序旨在帮助巴士司机完成各种任务，包括请假和制服申请、查看消息、报告隐患以及从安卓或苹果手机直接访问工资单、值班表和驾驶表现。",
+    "description3" : "该应用程序由Solo Pte Ltd开发，确保所有操作都能公平处理并符合公司政策。",
+    "version": "版本 {{version_num}}"
+  },
+  "help_page": {
+    "title": "帮助",
+    "subtitle": "常见问题",
+    "questions":{
+      "question1":{
+        "question": "如何更改我的密码？",
+        "answer": "请按照以下步骤更改密码：\n\n1.点击左上角的“3 行”图标以访问侧面菜单，然后单击顶部的您的姓名。\n2.在用户个人资料中，单击\n3.输入您的当前密码和新密码。请注意，新密码必须满足密码标准。\n4.单击蓝色的“更改密码”按钮以完成更改。如果更改成功，下次登录时必须使用新密码。"
+      },
+      "question2":{
+        "question": "如何报告应用程序问题？",
+        "answer": "TBD"
+      }
+    }
+  },
+  "message_page": {
+    "category_screen": {
+      "general": "一般",
+      "license expiring": "驾驶执照即将到期",
+      "lms": "学习管理系统"
+    },
+    "list_screen": {
+      "title": "讯息",
+      "search": "搜索",
+      "filter all": "全部",
+      "filter unread": "未读",
+      "filter read": "已读",
+      "no unread msgs": "没有未读讯息",
+      "view all chats": "查看所有讯息",
+      "cancel": "取消",
+      "delete label": "此讯息将从您的设备中删除。",
+      "delete message" : "删除讯息",
+      "posted by": "发布者：",
+      "filter by date": "过滤日期",
+      "sort date": "排序日期",
+      "select filter date": "选择过滤日期"
+    },
+    "details_screen": {
+      "title": "讯息",  
+      "acknowledge": "确认",
+      "upload": "上传",
+      "cancel": "取消",
+      "upload desc": "此讯息需要您跟进。请选择要上传的文件。",
+      "upload rule": "JPEG、PNG 和 PDF 格式 (最大尺寸可达 2MB)",
+      "add file": "添加文件",
+      "response":"回复： "
+    }
+  },
+  "notifications_page": {
+    "list_screen": {
+      "title": "通知",
+      "search": "搜索",
+      "filter all": "全部",
+      "filter unread": "未读",
+      "filter read": "已读",
+      "no unread msgs": "没有未读讯息",
+      "view all chats": "查看所有讯息",
+      "cancel": "取消",
+      "delete label": "此讯息将从您的设备中删除。",
+      "delete message" : "删除讯息"
+    },
+    "details_screen": {
+      "title": "通知",  
+      "acknowledge": "确认",
+      "upload": "上传",
+      "cancel": "取消",
+      "upload desc": "此讯息需要您跟进。请选择要上传的文件。",
+      "upload rule": "JPEG、PNG 和 PDF 格式 (最大尺寸可达 2MB)",
+      "browse file": "浏览文件"
+    }
+  },
+  "leave_request_page": {
+    "list_screen": {
+      "title": "请假申请",
+      "new leave": "新请假",
+      "filter label all": "全部",
+      "filter label approved": "已批准",
+      "filter label pending": "待处理",
+      "filter label rejected": "已拒绝",
+      "filter label cancelled": "已取消",
+      "leave date": "请假日期",
+      "apply date": "申请日期",
+      "applied on": "申请日期："
+    },
+    "cancel_screen": {
+      "title": "请假申请取消确认",
+      "confirmation message": "您确定要取消以下项目吗？",
+      "button label cancel": "取消"
+    },
+    "details_popup": {
+      "title": "请假申请详情",
+      "leave type": "请假类型：",
+      "leave requested date time": "请假日期和时间:",
+      "leave period": "请假期间：",
+      "status": "状态：",
+      "approved date time": "批准日期和时间:",
+      "supporting documents": "证明文件:",
+      "reason": "原因:",
+      "rejected reason": "主管备注：",
+      "button": "完成"
+    },
+    "new_leave_screen": {
+      "title": "新的请假申请",
+      "leave type": "休假类型",
+      "leave balance": "请假余额",
+      "entitlement": "应享权益（天）",
+      "taken" : "已用（天）",
+      "available": "可用（天）",
+      "from": "从",
+      "to": "到",
+      "full day": "全天/上午/下午",
+      "reason" : "原因",
+      "reason hint": "输入原因（如有）",
+      "supporting doc": "证明文件",
+      "button": "提交",
+      "leave type hint": "选择休假类型",
+      "leave type field alert message": "请假类型为必填项！",
+      "from date field alert message": "请选择开始日期",
+      "to date field alert message": "请选择截止日期",
+      "from date cannot be after to date alter message": "起始日期不能晚于截止日期",
+      "support docs field alert message": "需要证明文件！"
+    }
+  },
+  "uniform_request_page": {
+    "list_screen": {
+      "title": "制服申请",
+      "button": "新制服申请",
+      "filter label all": "全部",
+      "filter label pending": "待处理",
+      "filter label ready for collection": "可领取",
+      "filter label emailed": "处理中",
+      "filter label collected": "已领取",
+      "filter label cancelled": "取消",
+      "submitted date": "提交日期",
+      "order no": "订单号："
+    },
+    "cancel_screen": {
+      "title": "制服申请取消确认",
+      "confirmation message": "您确定要取消以下项目吗？",
+      "button label cancel": "取消"
+    },
+    "shopping_cart_screen": {
+      "title": "购物车",
+      "collection location": "领取地点",
+      "collection location hint": "选择领取地点",
+      "remarks": "备注",
+      "remarks hint": "输入备注（如有）",
+      "button cancel": "取消",
+      "button submit": "提交",
+      "no item": "您的购物车中没有商品",
+      "shopping cart field alert message": "购物车是空的",
+      "selected location field alert message": "需要上车地点！",
+      "shopping cart empty": "购物车是空的！",
+      "submission alert": "提交提醒！",
+      "submission alert message": "请联系仓库管理员以采取进一步行动！"
+    },
+    "new_uniform_screen": {
+      "title": "新制服要求",
+      "uniform item": "制服物品",
+      "uniform item hint": "选择制服物品",
+      "uniform entitlement": "制服应享权益",
+      "uniform type": "制服类型",
+      "total entitlement": "总应享权益",
+      "used": "已用",
+      "remaining": "剩余",
+      "warning 1": "没有剩余的应享权益。",
+      "warning 2": "请联系车库管理员。",
+      "uniform size": "制服尺码",
+      "uniform size hint": "选择制服尺码",
+      "quantity": "数量",
+      "quantity hint": "选择数量",
+      "cancel button": "取消",
+      "add button": "加入购物车",
+      "field alert message": "请填写每个字段"
+
+    },
+    "bottom_sheet": {
+      "order no": "订单号。：",
+      "submitted time": "提交时间：",
+      "item requested": "已申请物品：",
+      "item size": "物品尺码：",
+      "quantity": "数量：",
+      "remarks": "备注：",
+      "request type": "请求类型：",
+      "pickup location": "领取地点：",
+      "status": "状态：",
+      "button": "完成"
+    }
+  },
+  "hazard_report_form_page" : {
+    "title" : "报告隐患",
+    "description": "描述",
+    "description hint": "在此输入描述",
+    "location": "位置",
+    "location hint": "选择位置",
+    "others": "其他",
+    "supporting documents": "证明文件",
+    "button": "提交",
+    "description required": "描述为必填项",
+    "location required": "位置为必填项！",
+    "others required": "其他为必填项",
+    "photo gallery": "照片库",
+    "camera": "相机",
+    "supporting docs required": "必须附上证明文件！"
+  },
+  "hazard_report_page" : {
+    "title": "危险报告历史记录",
+    "button": "报告隐患",
+    "filter label all": "全部",
+    "filter label open": "未完成",
+    "filter label in progress": "进行中",
+    "filter label completed": "已完成",
+    "filter label closed": "已关闭",
+    "location": "位置",
+    "submit date": "提交日期"
+  },
+  "hazard_report_detail_page" : {
+    "title": "危险报告历史详细信息",
+    "case id": "案例编号: ",
+    "location": "地点: ",
+    "status": "状态: ",
+    "submit date": "提交日期/时间: ",
+    "description": "描述: ",
+    "comments": "评论："
+  },
+  "overtime_page": {
+    "title": "加班显示",
+    "total ot": "加班总时长",
+    "current month": "（当前月份）",
+    "hours": "小时",
+    "hour" : "小时",
+    "details": "详情",
+    "select date": "选择日期范围",
+    "datepicker button": "展示",
+    "date": "日期",
+    "ot hours": "加班小时"
+  },
+  "duty_roster_page": {
+    "title": "值班表",
+    "today": "今天",
+    "message": "如果您需要重新安排您的排班和/或取消您的休息日加班，请通知排工部门"
+  },
+  "driving_performance_page": {
+    "main_screen": {
+      "title": "驾驶表现",
+      "driving behaviour events": "驾驶行为事件：",
+      "total occurrence count": "总发生次数：",
+      "intervention status": "干预状态：",
+      "excellent": "出色的： ",
+      "good": "好的：",
+      "need to improve": "需要改进的： "
+    },
+    "detail_screen": {
+      "sort date": "排序日期",
+      "end of day points": "每日总积分 ",
+      "filter date": "过滤日期",
+      "select filter date": "选择过滤日期"
+    },
+    "occurrence_detail_screen": {
+      "subtitle": "事件详情",
+      "filter label view by events": "以事件查看",
+      "filter label view by trip": "以行程查看",
+      "trip_events": {
+        "driving behaviour events":"驾驶行为事件：",
+        "bus number":"巴士号码：",
+        "enter start time": "输入开始时间",
+        "enter end time": "输入结束时间",
+        "filter by time": "按时间过滤"
+      },
+      "detail_events": {
+        "time": "时间：",
+        "service number": "巴士服务号码：",
+        "filter label all": "全部",
+        "filter label speeding": "超速",
+        "filter label idling": "怠速",
+        "filter label bus swaying": "摇晃",
+        "filter label harsh acceleration": "急加速",
+        "filter label harsh braking": "急刹车",
+        "filter label sharp cornering": "急转弯",
+        "enter trip time": "输入行程时间",
+        "filter by time": "按时间过滤"
+      }
+    }
+  },
+  "attendance_page": {
+    "title": "出勤",
+    "driver id": "车长工牌号码",
+    "depot": "总站",
+    "duty": "值班",
+    "schedule time": "预排开始 / 结束时间",
+    "actual time": "实际开始 / 结束时间"
+  },
+  "buscheck_page": {
+    "main_screen": {
+      "title": "巴士检查",
+      "description": "通过选择任务开始：从第一次游行任务、最后一次游行任务、行程结束任务、巴士清单历史记录中选择或查看您的巴士最后停放位置。",
+      "first parade tasks": "第一例行任务",
+      "last parade tasks": "最后例行任务",
+      "end of trip tasks": "行程结束任务",
+      "bus checklist history": "巴士检查记录",
+      "bus last parked location" : "巴士最后停放位置",
+      "bus declaration declared": "巴士申报：已申报",
+      "bus declaration not declared": "巴士申报：请联系发车者或您的申报主管",
+      "bus declaration failed alert message": "由于您的申报项目之一被标记为“否”，请联系发令员或您的申报主管以获取进一步说明。 \n\n你想继续吗？"
+    },
+    "checklist_screen": {
+      "title": "巴士检查记录",
+      "filter task type": "过滤任务类型",
+      "submit date": "提交日期",
+      "first parade tasks": "第一例行任务",
+      "last parade tasks": "最后例行任务",
+      "end of trip tasks": "行程结束任务",
+      "declaration" : "申报",
+      "filter label all": "全部",
+      "filter label pending": "待处理",
+      "filter label acknowledged": "已确认",
+      "filter label approved": "已批准",
+      "submitted on": "提交日期："
+    },
+    "buslastpark_screen": {
+      "title": "巴士最后停放位置"
+    },
+    "checklist_details_screen": {
+      "title": "巴士检查记录详情",
+      "bus plate": "车牌号码：",
+      "depot": "总站",
+      "task type": "任务类型：",
+      "action": "行动：",
+      "submitted date time": "提交日期/时间",
+      "status": "状态：",
+      "items": "项目：",
+      "remarks": "备注",
+      "items message": "（以下部分仅显示带有备注和照片之一或两者的清单项目）"
+    },
+    "busdeclaration_screen": {
+      "title": "巴士车长声明",
+      "yes": "是",
+      "no": "不是",
+      "confirmation": "确认提交",
+      "reminder message": "若您符合申报要求，请选择‘是’。",
+      "warning message": "有一项或多项标记为“否”，您确定要继续进行吗？",
+      "unfilled message": "请在继续之前完成检查表中的所有选择。",
+      "close": "关"
+    },
+    "endoftrip_screen": {
+      "bus plate number": "车牌号码",
+      "bus plate number hint": "输入车牌号码",
+      "trip number": "行程编号",
+      "trip number hint": "输入行程编号",
+      "depot": "总站",
+      "depot hint": "选总站",
+      "button cancel": "取消",
+      "button previous": "上一页",
+      "button submit": "提交",
+      "button next": "下一页",
+      "button acknowledge": "承认",
+      "remarks": "备注",
+      "select all": "全选",
+      "alert message": "您已提交照片或备注。\n请寻找待命技术人员以提醒您的发现。",
+      "check all alert message": "请选中所有复选框！",
+      "depot field alert message": "请选择总站",
+      "bus plate number alert message": "需要车牌号码！",
+      "trip number alert message": "需要行程号码！",
+      "contact technician": "请联系技术人员或您的报告主管以获取进一步说明！",
+      "unrecognized qr code": "二维码无法识别！"
+    }
+  },
+  "qr_page": {
+    "invalid qr": "二维码无效！",
+    "album": "相册",
+    "scan qr": "扫描二维码"
+  },
+  "snackbar": {
+    "network issue": "网络连接问题！"
+  },
+  "feedback_page": {
+    "title": "反馈",
+    "submit": "提交",
+    "question 1": "您遇到了什么类型的问题？",
+    "question 1 hint": "选择问题",
+    "question 2": "您什么时候注意到这个问题的？",
+    "question 2 hint": "选择日期和时间",
+    "question 3": "请详细描述问题",
+    "question 3 hint": "请在此描述问题",
+    "question 4": "问题的屏幕截图（如果适用）"
+  },
+  "document_page": {
+    "folder_screen": {
+      "title": "文件存取",
+      "search": "搜索"
+    },
+    "files_screen": {
+      "search": "搜索",
+      "sort date" : "排序日期",
+      "files": "文件"
+    }
+  }
+}

@@ -1,0 +1,610 @@
+{
+  "documentation": "documentation",
+  "changelog": "changelog",
+  "micro-framework for Flutter": "micro-framework for Flutter",
+  "hello": "hello {{first_name}} {{last_name}}",
+  "no data": "No Data...",
+  "no events": "No Events...",
+  "loading": "Loading...",
+  "yes": "Yes",
+  "no" : "No",
+  "password_warning_label": {
+    "minimum characters": "Must be a minimum of 6 digits number.",
+    "enter value": "Please enter a new password.",
+    "different password": "New password must be different from current password.",
+    "not match": "Passwords do not match"
+  },
+  "login_screen" : {
+    "welcome": "Welcome!",
+    "username" : "Username",
+    "enter your employee ID": "Enter your Employee ID",
+    "password" : "Password",
+    "enter your password": "Enter your password",
+    "remember me": "Remember Me",
+    "enable face id": "Enable Face ID",
+    "button": "Login",
+    "login error 1": "Invalid ID or password",
+    "login error 2": "Please try again or click on the Forgot password to reset your password.",
+    "forgot password": "First time login / Forgot password?"
+  },
+  "otp_screen": {
+    "title": "OTP Verification",
+    "subtitle":"Enter the verification code sent to ",
+    "resend otp": "Didn't receive the OTP code?",
+    "resend label": "Resend OTP",
+    "button": "Verify",
+    "alert message": "The 6 digit OTP is required!",
+    "otp downtime": "Resend OTP in {{timer}} seconds"
+  },
+  "first_update_password_screen": {
+    "title": "Change password",
+    "subtitle": "You need to change your password because this is the first time you are signing in.",
+    "current password": "Current password",
+    "new password": "New password",
+    "confirm password": "Confirm password",
+    "button": "Change password"
+  },
+  "forgot_password_screen": {
+    "title": "Forgot password?",
+    "subtitle1": "Don't worry! Just enter your employee ID and mobile number. ",
+    "subtitle2": "We will send the verification code to your mobile number to reset your password.",
+    "employee id": "Employee ID",
+    "mobile number": "Mobile Number",
+    "button": "Submit",
+    "warning message": "*If you are unable to reset your password, please reach out to your supervisor for assistance."
+  },
+  "reset_password_screen": {
+    "title": "Reset password",
+    "subtitle": "Please enter a new password below.",
+    "new password": "New password",
+    "confirm new password":"Confirm new password",
+    "button": "Reset password",
+
+    "success_message_modal": {
+      "title":"Passsword reset successfully",
+      "subtitle": "Congratulations! Your password has been reset, please return to the login page to login again.",
+      "button": "Return to login page" 
+    }
+  },
+  "welcome_screen": {
+    "home": "Home",
+    "safety subtitle1" : "THINK SAFETY",
+    "safety subtitle2" : "WORK SAFELY",
+    "safety subtitle3" : "GO HOME SAFE",
+    "safety message" : "Safety Message",
+    "security subtitle1": "SECURITY IS EVERYONE’S RESPONSIBILITY",
+    "security subtitle2": "PROTECT TODAY, SECURE TOMORROW",
+    "security subtitle3": "SEE SOMETHING, SAY SOMETHING ",
+    "security message" : "Security Message"
+  },
+  "homepage_screen": {
+    "dashboard": "Dashboard",
+    "shortcuts": "Shortcuts",
+    "bus check": "Self Declare & Bus Check",
+    "duty roster": "Duty Roster",
+    "driving performance": "Driving Performance",
+    "leave request": "Leave Request",
+    "uniform request": "Uniform Request",
+    "payslip": "Payslip",
+    "learning system": "Learning System",
+    "document access": "Document Access",
+    "overtime": "Overtime Display",
+    "attendance": "Attendance"
+  },
+  "sidebar": {
+    "profile": "Profile",
+    "bus check": "Self Declare & Bus Check",
+    "duty roster": "Duty Roster",
+    "driving performance": "Driving Performance",
+    "leave request": "Leave Request",
+    "uniform request": "Uniform Request",
+    "payslip": "Payslip",
+    "settings": "Settings",
+    "learning system": "Learning System",
+    "document access": "Document Access",
+    "overtime": "Overtime Display",
+    "help": "Help",
+    "logout account" : "Logout Account",
+    "attendance": "Attendance"
+  },
+  "bottom_nav_bar": {
+    "home": "Home",
+    "report hazard": "Report Hazard",
+    "feedback": "Feedback"
+  },
+  "user_profile": {
+    "title": "User Profile",
+    "profile": "Profile",
+    "bc id": "Bus Captain ID",
+    "bc name": "Bus Captain Name",
+    "reporting supervisor": "Reporting Supervisor",
+    "depot/interchange": "Assigned Depot / Interchange",
+    "bus no": "Current Bus No.",
+    "driving license expiry date": "Driving License Expiry Date",
+    "driving license": "Driving License",
+    "security": "Security",
+    "change password": "Change Password",
+   
+    "change_password_screen": {
+      "title": "Change password",
+      "subtitle": "Enter a new password below to change your password.",
+      "current password": "Current password",
+      "new password": "New password",
+      "confirm new password": "Confirm new password",
+      "button": "Change password"
+    },
+
+    "driving_license_screen": {
+      "title": "Driving License",
+      "title update": "Driving License Update",
+      "bcid": "Bus Captain ID",
+      "name": "Bus Captain Name",
+      "license type": "License Type",
+      "select license type": "Select license type",
+      "expiry date": "Expiry date",
+      "expiry date message": "For Singaporeans, please key in “No expiry date”",
+      "expiry days": "Expiring in {{days}} days",
+      "no expiry": "No Expiry Date",
+      "days to expiration": "Days to Expiration",
+      "no data": "No Driving License Data.\nPlease contact your supervisor!",
+      "issue date": "Issue date",
+      "front license": "Front of driving license",
+      "back license" : "Back of Driving License",
+      "required": "required",
+      "photo lib": "Photo Library",
+      "take photo": "Take Photo",
+      "browse": "Browse",
+      "button": "Submit",
+      "renew": "Renew",
+      "pending": "Pending Update",
+      "expiry date field alert message": "Expiry Date is required!",
+      "issue date field alert message": "Issue Date is required!",
+      "front image field alert message": "Front image of your driving license is required!",
+      "back image field alert message": "Back image of your driving license is required!"
+    }
+  },
+  "payslip_page": {
+    "title": "Payslip",
+    "filter label payslip": "Payslip",
+    "start date": "Start Date",
+    "end date": "End Date",
+    "to": "to",
+
+    "date_selection_modal": {
+      "title": "Select payslip period",
+      "subtitle1": "Retrieve payslips for a period of 6 months.",
+      "subtitle2": "The date range should not be more than 6 months.",
+      "start date": "Start Date",
+      "end date": "End Date",
+      "to": "to"
+    },
+    "pdf_view_page": {
+      "left action label": "Done",
+      "right action label download": "Download",
+      "right action label view file": "View File",
+      "right action label downloading": "Downloading...",
+      "download complete": "Download completed!",
+      "download failed": "Download failed!",
+      "storage permission": "Storage permission is required to download files!",
+      "unable to load file": "Something went wrong! Unable to load payslip {{filename}}!",
+      "re-download text": "Unable to open the file! Do you want to re-download the file?",
+      "cancel": "Cancel",
+      "download": "Download"
+    }
+  },
+  "settings_page": {
+    "title": "Settings",
+    "general": "General",
+    "change language": "Change Language",
+    "security": "Security",
+    "enable face id": "Enable Face ID",
+    "enable face id description": "Your app passcode can be used as a backup.",
+    "about": "About this app",
+    "lang": "English"
+  },
+  "about_page" : {
+    "title": "About this app",
+    "description1": "Bus Captain Management System (BCMS) ",
+    "description2": "mobile application is designed to assist bus captains with a variety of tasks including leave and uniform requests, viewing messages, reporting hazards, and accessing payslips, duty rosters, and driving performance directly from their Android or Apple mobile phones.",
+    "description3" : "Developed by Solo Pte Ltd, this versatile app ensures all operations are handled equitably and in compliance with company policies.",
+    "version": "Version {{version_num}}"
+  },
+  "help_page": {
+    "title": "Help",
+    "subtitle": "Frequently Asked Questions",
+    "questions": {
+      "question1": {
+        "question": "How do I change my password?",
+        "answer": "Follow the steps below to change your password:\n\n1.Tap on the “3 lines” icon on the top left corner to access the side menu and click on your name on the top.\n2.Inside the User Profile, click on Change Password under the Security tab at the bottom.\n3.Enter your current password and the new password. Note that the new password must satisfy the password criteria.\n4.Click on blue Change Password button to complete the change. If the change is successful, the next time you login, you have to use the new password."
+      },
+      "question2": {
+        "question": "How do I report application problem?",
+        "answer": "TBD"
+      }
+    }
+  },
+  "message_page": {
+    "category_screen": {
+      "general": "General",
+      "license expiring": "License Expiring",
+      "lms": "LMS"
+    },
+    "list_screen": {
+      "title": "Messages",
+      "search": "Search",
+      "filter all": "All",
+      "filter unread": "Unread",
+      "filter read": "Read",
+      "no unread msgs": "No unread messages",
+      "view all chats": "View all chats",
+      "cancel": "Cancel",
+      "delete label": "this message will be deleted from your device.",
+      "delete message" : "Delete Message",
+      "posted by": "Posted by:",
+      "filter by date": "Filter by date",
+      "sort date": "Sort Date",
+      "select filter date": "Select filter date"
+    },
+    "details_screen": {
+      "title": "Messages",  
+      "acknowledge": "Acknowledge",
+      "upload": "Upload",
+      "cancel": "Cancel",
+      "upload desc": "This message requires your follow up. Please choose files to upload.",
+      "upload rule": "JPEG, PNG, and PDF formats (Maximum size: 2MB)",
+      "add file": "Add File",
+      "response":"Response: "
+    }
+  },
+  "notifications_page": {
+    "list_screen": {
+      "title": "Notifications",
+      "search": "Search",
+      "filter all": "All",
+      "filter unread": "Unread",
+      "filter read": "Read",
+      "no unread msgs": "No unread messages",
+      "view all chats": "View all chats",
+      "cancel": "Cancel",
+      "delete label": "this message will be deleted from your device.",
+      "delete message" : "Delete Message"
+    },
+    "details_screen": {
+      "title": "Notifications",  
+      "acknowledge": "Acknowledge",
+      "upload": "Upload",
+      "cancel": "Cancel",
+      "upload desc": "This message requires your follow up. Please choose files to upload.",
+      "upload rule": "JPEG, PNG, and PDF formats (Maximum size: 2MB)",
+      "browse file": "Browse File"
+    }
+  },
+  "leave_request_page": {
+    "list_screen": {
+      "title": "Leave Request",
+      "new leave": "New Leave",
+      "filter label all": "All",
+      "filter label approved": "Approved",
+      "filter label pending": "Pending",
+      "filter label rejected": "Rejected",
+      "filter label cancelled": "Cancelled",
+      "leave date": "Leave Date",
+      "apply date": "Apply Date",
+      "applied on": "Applied on:"
+    },
+    "cancel_screen": {
+      "title": "Leave Request cancelation confirmation",
+      "confirmation message": "Are you sure you want to cancel the following request?",
+      "button label cancel": "Cancel"
+    },
+    "details_popup": {
+      "title": "Leave Request Details",
+      "leave type": "Leave Type:",
+      "leave requested date time": "Leave Requested Date & Time:",
+      "leave period": "Leave Period:",
+      "status": "Status:",
+      "approved date time": "Approved Date & Time:",
+      "supporting documents": "Supporting Documents:",
+      "reason": "Reason:",
+      "rejected reason": "Supervisor's Remarks:",
+      "button": "Done"
+    },
+    "new_leave_screen": {
+      "title": "New Leave Request",
+      "leave type": "Leave Type",
+      "leave balance": "Leave Balance",
+      "entitlement": "Entitlement (days)",
+      "taken" : "Taken (days)",
+      "available": "Available (days)",
+      "from": "From",
+      "to": "To",
+      "full day": "Full day / AM / PM",
+      "reason" : "Reason",
+      "reason hint": "Enter reason (if any)",
+      "supporting doc": "Supporting Document",
+      "button": "Submit",
+      "leave type hint": "Select Leave Type",
+      "leave type field alert message": "Leave type is required!",
+      "from date field alert message": "Please select the from date",
+      "to date field alert message": "Please select the to date",
+      "from date cannot be after to date alter message": "From date cannot be after to Date",
+      "support docs field alert message": "Supporting document is required!"
+    }
+  },
+  "uniform_request_page": {
+    "list_screen": {
+      "title": "Uniform Request",
+      "button": "New Uniform Request",
+      "filter label all": "All",
+      "filter label pending": "Pending",
+      "filter label ready for collection": "Ready for collection",
+      "filter label emailed": "Processing",
+      "filter label collected": "Collected",
+      "filter label cancelled": "Cancelled",
+      "submitted date": "Submitted Date",
+      "order no": "Order No:"
+    },
+    "cancel_screen": {
+      "title": "Uniform Request cancelation confirmation",
+      "confirmation message": "Are you sure you want to cancel the following item?",
+      "button label cancel": "Cancel"
+    },
+    "shopping_cart_screen": {
+      "title": "Shopping Cart",
+      "collection location": "Collection Location",
+      "collection location hint": "Select collection location",
+      "remarks": "Remarks",
+      "remarks hint": "Enter remarks (if any)",
+      "button cancel": "Cancel",
+      "button submit": "Submit",
+      "no item": "You have no item on your shopping cart",
+      "shopping cart field alert message": "Shopping cart is empty",
+      "selected location field alert message": "Pickup location is required!",
+      "shopping cart empty": "Shopping Cart is empty!",
+      "submission alert": "Submission Alert!",
+      "submission alert message": "Please see Depot Admin for further action!"
+  
+    },
+    "new_uniform_screen": {
+      "title": "New Uniform Request",
+      "uniform item": "Uniform Item",
+      "uniform item hint": "Select uniform item",
+      "uniform entitlement": "Uniform Entitlement",
+      "uniform type": "Uniform Type",
+      "total entitlement": "Total Entitlement",
+      "used": "Used",
+      "remaining": "Remaining",
+      "warning 1": "There is no entitlement left.",
+      "warning 2": "Please contact depot admin.",
+      "uniform size": "Uniform Size",
+      "uniform size hint": "Select uniform size",
+      "quantity": "Quantity",
+      "quantity hint": "Select quantity",
+      "cancel button": "Cancel",
+      "add button": "Add to cart",
+      "field alert message": "Please fill in every field"
+
+    },
+    "bottom_sheet": {
+      "order no": "Order No.:",
+      "submitted time": "Submitted Time:",
+      "item requested": "Item Requested:",
+      "item size": "Item Size:",
+      "quantity": "Quantity:",
+      "remarks": "Remarks:",
+      "request type": "Request Type:",
+      "pickup location": "Pickup Location:",
+      "status": "Status:",
+      "button": "Done"
+    }
+  },
+  "hazard_report_form_page" : {
+    "title" : "Report Hazard",
+    "description": "Description",
+    "description hint": "Enter description here",
+    "location": "Location",
+    "location hint": "Select Location",
+    "others": "Others",
+    "supporting documents": "Supporting Documents",
+    "button": "Submit",
+    "description required": "Description is required!",
+    "location required": "Location is required!",
+    "others required": "Others are required!",
+    "photo gallery": "Photo Gallery",
+    "camera": "Camera",
+    "supporting docs required": "Supporting documents are required!"
+  },
+  "hazard_report_page" : {
+    "title": "Hazard Report History",
+    "button": "Hazard Report",
+    "filter label all": "All",
+    "filter label open": "Open",
+    "filter label in progress": "In Progress",
+    "filter label completed": "Completed",
+    "filter label closed": "Closed",
+    "location": "Location",
+    "submit date": "Submit Date"
+  },
+  "hazard_report_detail_page" : {
+    "title": "Hazard Report History Details",
+    "case id": "Case ID:",
+    "location": "Location:",
+    "status": "Status:",
+    "submit date": "Submitted Date / Time:",
+    "description": "Description:",
+    "comments": "Comments:"
+  },
+  "overtime_page": {
+    "title": "Overtime Display",
+    "total ot": "Total OT Duration",
+    "hours": "hours",
+    "hour" : "hour",
+    "details": "DETAILS",
+    "select date": "Select Date Range",
+    "datepicker button": "Show",
+    "date": "Date",
+    "ot hours": "OT Hours"
+  },
+  "duty_roster_page": {
+      "title": "Duty Roster",
+      "today": "Today",
+      "message": "You may contact Rostering Department if you would like to rearrange your schedule and/or cancel your ODW/RDW"
+  },
+
+  "driving_performance_page": {
+    "main_screen": {
+      "title": "Driving Performance",
+      "driving behaviour events": "Driving behaviour events:",
+      "total occurrence count": "Total occurrence count:",
+      "intervention status": "Intervention status:", 
+      "excellent": "Excellent: ",
+      "good": "Good: ",
+      "need to improve": "Need to Improve: "
+    },
+    "detail_screen": {
+      "sort date": "Sort Date",
+      "end of day points": "End of Day Points: ",
+      "filter date": "Filter Date",
+      "select filter date": "Select Filter Date"
+    },
+    "occurrence_detail_screen": {
+      "subtitle": "Occurence Detail",
+      "filter label view by events": "View by Events",
+      "filter label view by trip": "View by Trips",
+      "trip_events": {
+        "driving behaviour events":"Driving behaviour events:",
+        "bus number":"Bus Number:",
+        "enter start time": "Enter Start Time",
+        "enter end time": "Enter End Time",
+        "filter by time": "Filter by Time" 
+      },
+      "detail_events": {
+        "time": "Time: ",
+        "service number": "Service Number: ",
+        "filter label all": "All",
+        "filter label speeding": "Speeding",
+        "filter label idling": "Idling",
+        "filter label bus swaying": "Bus Swaying",
+        "filter label harsh acceleration": "Harsh Acceleration",
+        "filter label harsh braking": "Harsh Braking",
+        "filter label sharp cornering": "Sharp Cornering",
+        "enter trip time": "Enter Trip Time",
+        "filter by time": "Filter by Time" 
+      }
+
+    }
+  },
+  "attendance_page": {
+    "title": "Attendance",
+    "driver id": "Driver ID",
+    "depot": "Depot",
+    "duty": "Duty",
+    "schedule time": "Scheduled Start / End Time",
+    "actual time": "Actual Start / End Time"
+  },
+  "buscheck_page": {
+    "main_screen": {
+      "title": "Bus Check",
+      "description": "Get Started by selecting a task: Choose from First Parade Tasks, Last Parade Tasks, End of Trip Tasks, Bus Checklist History or view your Bus Last Park Location.",
+      "first parade tasks": "First Parade Tasks",
+      "last parade tasks": "Last Parade Tasks",
+      "end of trip tasks": "End of Trip Tasks",
+      "bus checklist history": "Bus Checklist History",
+      "bus last parked location": "Bus Last Parked Location",
+      "bus declaration declared": "Bus Declaration: Declared",
+      "bus declaration not declared": "Bus Declaration: Please contact the starter or your reporting supervisor",
+      "bus declaration failed alert message": "Due to one of your declaration items being marked as 'No', please contact the starter or your reporting supervisor for further instructions."
+    },
+    "checklist_screen": {
+      "title": "Bus Checklist History",
+      "filter task type": "Filter Task Type",
+      "submit date": "Submit Date",
+      "first parade tasks": "First Parade Tasks",
+      "last parade tasks": "Last Parade Tasks",
+      "end of trip tasks": "End of Trip Tasks",
+      "declaration" : "Declaration",
+      "filter label all": "All",
+      "filter label pending": "Pending",
+      "filter label acknowledged": "Acknowledged",
+      "filter label approved": "Approved",
+      "submitted on": "Submitted on:"
+    },
+    "buslastpark_screen": {
+      "title": "Bus Last Parked Location"
+    },
+    "checklist_details_screen": {
+      "title": "Bus Checklist History Details",
+      "bus plate": "Bus Plate:",
+      "depot": "Depot:",
+      "task type": "Task Type:",
+      "action": "Action:",
+      "submitted date time": "Submitted Date / Time:",
+      "status": "Status:",
+      "items": "Items:",
+      "remarks": "Remarks",
+      "items message": "(only the checklist items with either or both with remarks and photo will be displayed in the following section)"
+    },
+    "busdeclaration_screen": {
+      "title": "BC Declaration",
+      "yes": "Yes",
+      "no": "No",
+      "confirmation": "Confirmation",
+      "reminder message": "Please select 'Yes' if you meet the declaration requirements.",
+      "warning message": "There is one or more item marked as 'No'. Are you sure you want to continue to proceed?",
+      "unfilled message": "Please complete all selections in the checklist before proceeding.",
+      "close": "Close"
+    },
+    "endoftrip_screen": {
+      "bus plate number": "Bus Plate Number",
+      "bus plate number hint": "Enter Bus Plate Number",
+      "trip number": "Trip Number",
+      "trip number hint": "Enter Trip Number",
+      "depot": "Depot",
+      "depot hint": "Select Depot",
+      "button cancel": "Cancel",
+      "button previous": "Previous",
+      "button submit": "Submit",
+      "button next": "Next",
+      "button acknowledge": "Acknowledge",
+      "remarks": "Remarks",
+      "select all": "Select All",
+      "alert message": "You have submitted photos or remarks.\nPlease look for standby technician to alert your findings.",
+      "check all alert message": "Please check all checkboxes!",
+      "depot field alert message": "Please select a depot",
+      "bus plate number alert message": "Bus Plate Number is required!",
+      "trip number alert message": "Trip number is required!",
+      "contact technician": "Please contact the technician or your reporting supervisor for further instructions!",
+      "unrecognized qr code": "Unrecognized QR code!"
+    }
+  },
+  "qr_page": {
+    "invalid qr": "Invalid QR Code!",
+    "album": "Album",
+    "scan qr": "Scan QR Code"
+  },
+  "snackbar": {
+    "network issue": "Network connection issue!"
+  },
+  "feedback_page": {
+    "title": "Feedback",
+    "submit": "Submit", 
+    "question 1": "What type of issue did you encounter?",
+    "question 1 hint": "Select issue",
+    "question 2": "When did you notice the issue?",
+    "question 2 hint": "Select date & time",
+    "question 3": "Please describe the issue in detail",
+    "question 3 hint": "Please describe the issue here",
+    "question 4": "Screenshots of the issue (if applicable)"
+  },
+  "document_page": {
+    "folder_screen": {
+      "title": "Document Access",
+      "search": "Search"
+    },
+    "files_screen": {
+      "search": "Search",
+      "sort date" : "Sort Date",
+      "files": "Files"
+    }
+  }
+}

@@ -1,0 +1,116 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+// def localProperties = new Properties()
+// def localPropertiesFile = rootProject.file('local.properties')
+// if (localPropertiesFile.exists()) {
+//     localPropertiesFile.withReader('UTF-8') { reader ->
+//         localProperties.load(reader)
+//     }
+// }
+
+// def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
+// if (flutterVersionCode == null) {
+//     flutterVersionCode = '1'
+// }
+
+// def flutterVersionName = localProperties.getProperty('flutter.versionName')
+// if (flutterVersionName == null) {
+//     flutterVersionName = '1.0'
+// }
+
+// Retrieve version info from pubspec.yaml instead.
+def getFlutterVersionInfo() {
+    def pubspec = rootProject.file('../pubspec.yaml')
+    def versionInfo = [versionName: "1.0", versionCode: 1]  // Default values
+
+     if (pubspec.exists()) {
+        def pubspecContent = new File(pubspec.absolutePath).text
+        def versionMatch = pubspecContent =~ /version:\s*([\d.]+)/
+
+        if (versionMatch) {
+            versionInfo.versionName = versionMatch[0][1] // This will get the version x.x.x
+            versionInfo.versionCode = 1 // Set a default version code, or increment it manually
+        }
+    } else {
+        // For debug purpose
+        println "pubspec.yaml not found at: ${pubspec.absolutePath}"
+    }
+
+    return versionInfo
+}
+
+def flutterVersionInfo = getFlutterVersionInfo()
+// For debug purpose
+println "Version Name: ${flutterVersionInfo.versionName}"
+println "Version Code: ${flutterVersionInfo.versionCode}"
+
+def keystoreProperties = new Properties()
+def keystorePropertiesFile = rootProject.file('key.properties')
+if (keystorePropertiesFile.exists()) {
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+}
+
+android {
+    namespace "com.solodream.bcms"
+    compileSdk flutter.compileSdkVersion
+    ndkVersion flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    defaultConfig {
+        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+        applicationId "com.solodream.bcmsplus"
+        // You can update the following values to match your application needs.
+        // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
+        minSdkVersion flutter.minSdkVersion
+        targetSdkVersion flutter.targetSdkVersion
+        versionCode flutterVersionInfo.versionCode
+        versionName flutterVersionInfo.versionName
+        multiDexEnabled true
+    }
+
+    signingConfigs {
+        release {
+            v1SigningEnabled false
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storeFile keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null
+            storePassword keystoreProperties['storePassword']
+        }
+    }
+
+    buildTypes {
+        release {
+            // TODO: Add your own signing config for the release build.
+            // Signing with the debug keys for now, so `flutter run --release` works.
+            debuggable false
+            signingConfig signingConfigs.release
+        }
+
+        debug {
+            debuggable true
+            signingConfig signingConfigs.debug
+        }
+    }
+}
+
+flutter {
+    source '../..'
+}
+
+dependencies {}
